@@ -27,7 +27,7 @@ public class Ejemplos {
         do{
             nombre = JOptionPane.showInputDialog("Ingrese su nombre");
             JOptionPane.showMessageDialog(null, "Hola" + nombre);
-            seguir = JOptionPane.showConfirmDialog(null, "¿Desea cntinuar?", "Confirmar", JOptionPane.YES_NO_OPTION);
+            seguir = JOptionPane.showConfirmDialog(null, "¿Desea continuar?", "Confirmar", JOptionPane.YES_NO_OPTION);
         }
         while(seguir==JOptionPane.YES_OPTION);
     }
